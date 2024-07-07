@@ -16,7 +16,7 @@ This document provides an overview of the Trading application developed using Ne
 
 ## Overview
 
-The Trading Microservices application is built with Nest.js and provides two main functionalities:
+The Trading application is built with Nest.js and provides two main functionalities:
 
 1. Retrieve the current gas price on the Ethereum network.
 2. Estimate the output amount for a given input amount when trading tokens on UniswapV2.
@@ -116,7 +116,7 @@ The application performs validation on the input parameters and returns appropri
 
 ## Setup and Installation
 
-To set up and run the Trading Microservices application, follow these steps:
+To set up and run the Trading application, follow these steps:
 
 1. **Clone the repository:**
 
