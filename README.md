@@ -23,7 +23,7 @@ The Trading Microservices application is built with Nest.js and provides two mai
 
 ## Endpoints
 
-### GET /gasPrice
+### GET /v1/gasPrice
 
 #### Description
 
@@ -42,7 +42,7 @@ Fetches the current gas price
 #### Example Request
 
 ```bash
-GET /gasPrice
+GET /v1/gasPrice
 ```
 
 #### Example Response
@@ -53,7 +53,7 @@ GET /gasPrice
 }
 ```
 
-### GET /return/:fromTokenAddress/:toTokenAddress/:amountIn
+### GET /v1/return/:fromTokenAddress/:toTokenAddress/:amountIn
 
 #### Description
 
@@ -78,7 +78,7 @@ Fetches an estimated output amount for a given input amount when trading from `f
 #### Example Request
 
 ```bash
-GET /return/0xSourceTokenAddress/0xDestinationTokenAddress/1000000000000000000
+GET /v1/return/0xSourceTokenAddress/0xDestinationTokenAddress/1000000000000000000
 ```
 
 #### Example Response
